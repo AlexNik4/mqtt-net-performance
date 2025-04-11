@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- <ItemGroup>
+    <PackageReference Include="MQTTnet.AspNetCore" Version="5.0.1.1416" />
+    <PackageReference Include="MQTTnet" Version="5.0.1.1416" />
+  </ItemGroup> -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MQTTnet\Source\MQTTnet\MQTTnet.csproj" />
+    <ProjectReference Include="..\..\MQTTnet\Source\MQTTnet.AspnetCore\MQTTnet.AspNetCore.csproj" />
+  </ItemGroup>
+
+</Project>
